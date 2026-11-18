@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="50%" stop-color="#1e1e1e"/>
+      <stop offset="100%" stop-color="#121818"/>
+    </linearGradient>
+
+    <radialGradient id="orangeGlow" cx="18%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#ea5c2a" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ea5c2a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="tealGlow" cx="85%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#17706e" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#17706e" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="goldGlow" cx="75%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#ffc340" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffc340" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="orangeGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea5c2a"/>
+      <stop offset="100%" stop-color="#ffc340"/>
+    </linearGradient>
+
+    <linearGradient id="tealCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#17706e"/>
+      <stop offset="100%" stop-color="#38c6c2"/>
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#262629" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1a1d" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#fcfaff" stroke-width="0.6" stroke-opacity="0.04"/>
+    </pattern>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1280" height="640" rx="20" fill="url(#bgGrad)"/>
+  <rect width="1280" height="640" rx="20" fill="url(#orangeGlow)"/>
+  <rect width="1280" height="640" rx="20" fill="url(#tealGlow)"/>
+  <rect width="1280" height="640" rx="20" fill="url(#goldGlow)"/>
+  <rect width="1280" height="640" rx="20" fill="url(#grid)"/>
+
+  <!-- Decorative Tech Rings -->
+  <circle cx="1020" cy="320" r="310" fill="none" stroke="#ea5c2a" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <circle cx="1020" cy="320" r="250" fill="none" stroke="#17706e" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Top Left Accent Line -->
+  <rect x="64" y="0" width="180" height="5" fill="url(#orangeGold)"/>
+
+  <!-- LEFT COLUMN: BRANDING & POSITIONING -->
+  <!-- Top Badge -->
+  <rect x="64" y="58" width="465" height="34" rx="8" fill="#ea5c2a" fill-opacity="0.14" stroke="#ea5c2a" stroke-opacity="0.45" stroke-width="1.2"/>
+  <circle cx="84" cy="75" r="5" fill="#ea5c2a"/>
+  <text x="98" y="80" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="12" font-weight="700" fill="#ffc340" letter-spacing="1.4">AGENTE DE IA PARA CARREIRA, CURRÍCULO E VAGAS</text>
+
+  <!-- H.H. Shield Emblem + Main Title -->
+  <g transform="translate(64, 115)">
+    <rect x="0" y="6" width="68" height="68" rx="16" fill="url(#orangeGold)" filter="url(#shadow)"/>
+    <rect x="3" y="9" width="62" height="62" rx="14" fill="#1e1e1e"/>
+    <text x="34" y="51" font-family="'Segoe UI', 'Sora', Arial, sans-serif" font-size="28" font-weight="900" fill="url(#orangeGold)" text-anchor="middle">HH</text>
+
+    <text x="86" y="48" font-family="'Segoe UI', 'Sora', Arial, sans-serif" font-size="54" font-weight="900" fill="#fcfaff" letter-spacing="1">HENRY HUNTER</text>
+    <text x="88" y="82" font-family="'Segoe UI', 'Sora', Arial, sans-serif" font-size="25" font-weight="700" fill="url(#orangeGold)">Recrutador e gestor de RH</text>
+  </g>
+
+  <!-- Description Text -->
+  <text x="64" y="242" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="17" font-weight="400" fill="#d0ced6">
+    Auditoria visual por prints com <tspan fill="#fcfaff" font-weight="700">Boletim de Notas (0 a 100)</tspan>, construção do
+  </text>
+  <text x="64" y="268" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="17" font-weight="400" fill="#d0ced6">
+    <tspan fill="#ffc340" font-weight="700">Super Currículo Universal</tspan>, criação de conteúdo para LinkedIn e aprovação nos
+  </text>
+  <text x="64" y="294" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="17" font-weight="400" fill="#d0ced6">
+    algoritmos de triagem da <tspan fill="#fcfaff" font-weight="700">Gupy (Gaia), Infojobs (PandaPé) e Indeed</tspan>.
+  </text>
+
+  <!-- 16 Masters Knowledge Box -->
+  <rect x="64" y="322" width="630" height="86" rx="12" fill="#252528" stroke="#fcfaff" stroke-opacity="0.1" stroke-width="1"/>
+  <rect x="64" y="322" width="5" height="86" rx="2.5" fill="#ffc340"/>
+  <text x="84" y="346" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="12" font-weight="700" fill="#ffc340" letter-spacing="1.1">CÉREBRO TREINADO COM AS 16 MAIORES REFERÊNCIAS DO MERCADO:</text>
+  <text x="84" y="369" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#fcfaff">
+    Robert Half • Michael Page • Randstad • Hays • Adecco • ManpowerGroup
+  </text>
+  <text x="84" y="391" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="13" font-weight="400" fill="#b5b3b8">
+    Sofia Esteves • Marcelo Nóbrega • Carolina Martins • Aline Sousa • Ruy Shiozawa e +5
+  </text>
+
+  <!-- Platform & LLM Pills -->
+  <g transform="translate(64, 428)">
+    <rect x="0" y="0" width="126" height="34" rx="8" fill="#17706e" fill-opacity="0.28" stroke="#38c6c2" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="63" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#4ef0eb" text-anchor="middle">LinkedIn 360°</text>
+
+    <rect x="138" y="0" width="124" height="34" rx="8" fill="#ea5c2a" fill-opacity="0.2" stroke="#ea5c2a" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="200" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ff8559" text-anchor="middle">Gupy &amp; Gaia</text>
+
+    <rect x="274" y="0" width="152" height="34" rx="8" fill="#ffc340" fill-opacity="0.16" stroke="#ffc340" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="350" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffc340" text-anchor="middle">Infojobs &amp; Indeed</text>
+
+    <rect x="438" y="0" width="192" height="34" rx="8" fill="#fcfaff" fill-opacity="0.08" stroke="#fcfaff" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="534" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#fcfaff" text-anchor="middle">ChatGPT • Claude • Gemini</text>
+  </g>
+
+  <!-- Creator Footer Card -->
+  <g transform="translate(64, 512)">
+    <rect x="0" y="0" width="630" height="72" rx="14" fill="#1a1a1d" stroke="#ea5c2a" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="38" cy="36" r="22" fill="url(#orangeGold)"/>
+    <text x="38" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="900" fill="#1e1e1e" text-anchor="middle">DH</text>
+    <text x="74" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fcfaff">Idealizado por Diego Henrique Boaventura</text>
+    <text x="74" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#ffc340">linkedin.com/in/diegohenriqueboaventura  •  Estrategista de Marketing, MarTech &amp; IA</text>
+  </g>
+
+  <!-- RIGHT COLUMN: AUDIT SCORE DASHBOARD MOCKUP -->
+  <g transform="translate(736, 56)" filter="url(#shadow)">
+    <!-- Main Card -->
+    <rect x="0" y="0" width="480" height="528" rx="18" fill="url(#cardBg)" stroke="#fcfaff" stroke-opacity="0.15" stroke-width="1.5"/>
+    <rect x="0" y="0" width="480" height="6" rx="3" fill="url(#orangeGold)"/>
+
+    <!-- Window Dots & Header -->
+    <circle cx="28" cy="28" r="6" fill="#ea5c2a"/>
+    <circle cx="48" cy="28" r="6" fill="#ffc340"/>
+    <circle cx="68" cy="28" r="6" fill="#38c6c2"/>
+    <text x="92" y="33" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#b5b3b8" letter-spacing="1.2">AUDITORIA VISUAL POR PRINTS</text>
+    <rect x="352" y="16" width="104" height="24" rx="12" fill="#17706e" fill-opacity="0.35" stroke="#38c6c2" stroke-width="1"/>
+    <text x="404" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#4ef0eb" text-anchor="middle">APROVADO</text>
+
+    <line x1="24" y1="54" x2="456" y2="54" stroke="#fcfaff" stroke-opacity="0.08" stroke-width="1"/>
+
+    <!-- Score Hero Section -->
+    <rect x="24" y="72" width="432" height="114" rx="14" fill="#161618" stroke="#fcfaff" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="88" cy="129" r="40" fill="none" stroke="#2c2c30" stroke-width="8"/>
+    <circle cx="88" cy="129" r="40" fill="none" stroke="url(#orangeGold)" stroke-width="8" stroke-dasharray="242" stroke-dashoffset="10" stroke-linecap="round"/>
+    <text x="88" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="900" fill="#fcfaff" text-anchor="middle">98%</text>
+
+    <text x="150" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#ffc340" letter-spacing="1">NOTA DO SUPER CURRÍCULO &amp; PERFIL</text>
+    <text x="150" y="134" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="800" fill="#fcfaff">Zona de Elite (98/100)</text>
+    <text x="150" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#4ef0eb">▲ Evolução de 48/100 para 98/100 após ajustes</text>
+
+    <!-- Metric Bars -->
+    <!-- Bar 1 -->
+    <text x="28" y="218" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#fcfaff">1. Impacto em 6 Segundos (Leitura Humana)</text>
+    <text x="452" y="218" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffc340" text-anchor="end">98/100</text>
+    <rect x="28" y="228" width="424" height="10" rx="5" fill="#141416"/>
+    <rect x="28" y="228" width="415" height="10" rx="5" fill="url(#orangeGold)"/>
+
+    <!-- Bar 2 -->
+    <text x="28" y="272" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#fcfaff">2. Compatibilidade Robôs ATS (Gaia &amp; PandaPé)</text>
+    <text x="452" y="272" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="800" fill="#4ef0eb" text-anchor="end">100/100</text>
+    <rect x="28" y="282" width="424" height="10" rx="5" fill="#141416"/>
+    <rect x="28" y="282" width="424" height="10" rx="5" fill="url(#tealCyan)"/>
+
+    <!-- Bar 3 -->
+    <text x="28" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#fcfaff">3. Força de Resultados, Métricas e Liderança</text>
+    <text x="452" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ff8559" text-anchor="end">96/100</text>
+    <rect x="28" y="336" width="424" height="10" rx="5" fill="#141416"/>
+    <rect x="28" y="336" width="406" height="10" rx="5" fill="#ea5c2a"/>
+
+    <!-- Bar 4 -->
+    <text x="28" y="380" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#fcfaff">4. Clareza Executiva &amp; Português Corporativo</text>
+    <text x="452" y="380" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffc340" text-anchor="end">99/100</text>
+    <rect x="28" y="390" width="424" height="10" rx="5" fill="#141416"/>
+    <rect x="28" y="390" width="419" height="10" rx="5" fill="#ffc340"/>
+
+    <!-- Bottom Checklist inside Card -->
+    <rect x="24" y="422" width="432" height="82" rx="12" fill="#161618" stroke="#17706e" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="42" y="448" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#4ef0eb">✓ Super Currículo Universal + Adaptação por Vaga</text>
+    <text x="42" y="470" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffc340">✓ Otimização de LinkedIn e Criação de Posts</text>
+    <text x="42" y="492" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#fcfaff">✓ Simulador de Entrevistas (Método STAR)</text>
+  </g>
+</svg>

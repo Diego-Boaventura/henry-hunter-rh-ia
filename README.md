@@ -1,3 +1,25 @@
+<div align="center">
+  <img src="./assets/henry-hunter-cover.svg" alt="Henry Hunter: Recrutador e gestor de RH" width="100%" />
+
+  <br />
+  <br />
+
+  <a href="https://www.linkedin.com/in/diegohenriqueboaventura/">
+    <img src="https://img.shields.io/badge/Criado_por-Diego_Henrique_Boaventura-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Diego Henrique Boaventura" />
+  </a>
+  <a href="./PROMPT-UNIVERSAL-CHATGPT-CLAUDE-GEMINI.md">
+    <img src="https://img.shields.io/badge/Usar_Agora-ChatGPT_%7C_Claude_%7C_Gemini-ea5c2a?style=for-the-badge" alt="Prompt Universal" />
+  </a>
+  <a href="./references/01-auditoria-prints-e-sistema-de-notas.md">
+    <img src="https://img.shields.io/badge/Auditoria_por_Prints-Score_0_a_100-17706e?style=for-the-badge" alt="Score 0 a 100" />
+  </a>
+  <a href="./references/02-metodologia-16-referencias-rh.md">
+    <img src="https://img.shields.io/badge/C%C3%A9rebro_de_RH-16_Refer%C3%AAncias_Globais-ffc340?style=for-the-badge&labelColor=1e1e1e" alt="16 Referências de RH" />
+  </a>
+</div>
+
+---
+
 # 🎯 Henry Hunter: Recrutador e gestor de RH
 
 > **O Agente de Inteligência Artificial mais completo para recolocação profissional, auditoria por prints com sistema de notas (0 a 100), criação do Super Currículo Universal e aprovação no LinkedIn, Gupy, Infojobs e Indeed.**
@@ -43,17 +65,19 @@ O **Henry Hunter** foi construído para funcionar em **qualquer LLM do mercado**
 
 ## 📂 Arquitetura Completa do Projeto
 
-Este repositório é composto por **8 módulos especializados**:
+Este repositório é composto por **10 módulos e recursos especializados**:
 
-* **[`SKILL.md`](./SKILL.md):** O núcleo central de regras, identidade, memória de sessão e diretrizes de linguagem do Henry Hunter.
-* **[`PROMPT-UNIVERSAL-CHATGPT-CLAUDE-GEMINI.md`](./PROMPT-UNIVERSAL-CHATGPT-CLAUDE-GEMINI.md):** Versão completa pronta para copiar e colar em qualquer chat de IA na web ou celular.
-* **[`references/01-auditoria-prints-e-sistema-de-notas.md`](./references/01-auditoria-prints-e-sistema-de-notas.md):** O motor matemático que avalia prints e calcula o Boletim de Notas de 0 a 100.
-* **[`references/02-metodologia-16-referencias-rh.md`](./references/02-metodologia-16-referencias-rh.md):** A base de conhecimento das 6 consultorias globais e dos 10 líderes de RH do Brasil.
-* **[`references/03-manual-gupy-infojobs-indeed-plataformas.md`](./references/03-manual-gupy-infojobs-indeed-plataformas.md):** O guia técnico para vencer os algoritmos da Gupy, Infojobs, Indeed, Catho, Remotar, Trampos.co e descobrir novos sites de vagas.
-* **[`references/04-super-curriculo-universal-e-adaptado.md`](./references/04-super-curriculo-universal-e-adaptado.md):** Engenharia de currículo, extração inteligente de métricas e adaptação por plataforma.
-* **[`references/05-linkedin-360-e-criacao-de-conteudo.md`](./references/05-linkedin-360-e-criacao-de-conteudo.md):** Otimização completa de perfil do LinkedIn em 6 degraus + Fábrica de Posts de autoridade.
-* **[`references/06-simulador-entrevistas-e-negociacao.md`](./references/06-simulador-entrevistas-e-negociacao.md):** Treinador de entrevistas com método STAR, roteiros para abordar recrutadores e negociação salarial CLT e PJ.
-* **[`resources/template-super-curriculo-universal.md`](./resources/template-super-curriculo-universal.md):** Modelo oficial de Super Currículo Universal à prova de robôs ATS.
+| Módulo / Arquivo | Função Estratégica |
+| :--- | :--- |
+| **[`SKILL.md`](./SKILL.md)** | O núcleo central de regras, identidade, memória de sessão e diretrizes de linguagem do Henry Hunter. |
+| **[`PROMPT-UNIVERSAL-CHATGPT-CLAUDE-GEMINI.md`](./PROMPT-UNIVERSAL-CHATGPT-CLAUDE-GEMINI.md)** | Versão completa pronta para copiar e colar em qualquer chat de IA na web ou celular. |
+| **[`references/01-auditoria-prints-e-sistema-de-notas.md`](./references/01-auditoria-prints-e-sistema-de-notas.md)** | O motor matemático que avalia prints e calcula o Boletim de Notas de 0 a 100. |
+| **[`references/02-metodologia-16-referencias-rh.md`](./references/02-metodologia-16-referencias-rh.md)** | A base de conhecimento das 6 consultorias globais e dos 10 líderes de RH do Brasil. |
+| **[`references/03-manual-gupy-infojobs-indeed-plataformas.md`](./references/03-manual-gupy-infojobs-indeed-plataformas.md)** | O guia técnico para vencer os algoritmos da Gupy, Infojobs, Indeed, Catho, Remotar e descobrir novos sites. |
+| **[`references/04-super-curriculo-universal-e-adaptado.md`](./references/04-super-curriculo-universal-e-adaptado.md)** | Engenharia de currículo, extração inteligente de métricas e adaptação por plataforma. |
+| **[`references/05-linkedin-360-e-criacao-de-conteudo.md`](./references/05-linkedin-360-e-criacao-de-conteudo.md)** | Otimização completa de perfil do LinkedIn em 6 degraus + Fábrica de Posts de autoridade. |
+| **[`references/06-simulador-entrevistas-e-negociacao.md`](./references/06-simulador-entrevistas-e-negociacao.md)** | Treinador de entrevistas com método STAR, roteiros para abordar recrutadores e negociação salarial CLT e PJ. |
+| **[`resources/template-super-curriculo-universal.md`](./resources/template-super-curriculo-universal.md)** | Modelo oficial de Super Currículo Universal à prova de robôs ATS. |
 
 ---
 
